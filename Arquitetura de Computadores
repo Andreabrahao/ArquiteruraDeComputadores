@@ -1,0 +1,47 @@
+Arquitetura de Computadores
+
+Part 1 {
+
+	Notes:
+	Exemplo de armazenamento em JavaScript
+
+	let a = 7;
+	let b = 2;
+	let c = a + b;
+
+	if(c !== 0) {
+		c++;
+	}
+
+	O computador executa dessa forma:
+
+	guarda a = 7
+	guarda b = 2
+	guarda c = a + b
+
+	guarda em "if" se c e diferente de "0" ele executa c++ que nada mais e que c = c + 1.
+
+	obs.: LET e a variavel de armazenamento de infomacoes.
+
+	Programa Compilado x Interpretado
+
+	Complilados sempre tem espacos adicionais 
+	isso facilita para executar varios programas porem existe um tempo para compliar o programa para depois executar, porem mais rapidamente e possivel rodar o programa.
+
+	Interpretavel possui uma velocidade de interpretar linhas de codigo mais lentamente, sendo que a interpretacao e imediata, sem necessario compilar antes.
+
+	Compliadore: Execuao rapida, verifica erros antes de executar, tempo extra para executar. (C, GO, Rust).
+
+	Interpretadores: Execucao lenta, so verifica erros executando, comeca a executar na hora, executa em diferentes maquinas. (JavaScript, Python, PHP, Rubly).
+
+	Obs.: Um mesma linguagem pode tter os dois.
+
+	Jit Complilation: Complila na hora certa
+
+	Ex: Cofigo fonte {
+		Function pitagoras(a, b){
+		let soma = a*a + b*b
+		return raizQuadrada(soma);
+		}
+	}
+}
